@@ -1,3 +1,54 @@
 .App {
   text-align: center;
 }
+
+.image-one {
+  position: relative;
+}
+
+.hotspot-one {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  color: rgba(252, 253, 254, 0);
+  height: 30px;
+  width: 30px;
+  left: 70%;
+  top: 50%;
+}
+.hotspot-one:hover {
+  background-color: white;
+  color: black;
+  height: 100px;
+  width: 100px;
+}
+.hotspot-two {
+  position: absolute;
+  background-color: white;
+  color: rgba(252, 253, 254, 0);
+  height: 30px;
+  width: 30px;
+  left: 30%;
+  top: 50%;
+}
+.hotspot-two:hover {
+  background-color: white;
+  color: black;
+  height: 100px;
+  width: 100px;
+}
+.hotspot-three {
+  position: absolute;
+  background-color: white;
+  color: rgba(252, 253, 254, 0);
+  height: 30px;
+  width: 30px;
+  left: 30%;
+  top: 45%;
+}
+.hotspot-three:hover {
+  background-color: white;
+  color: black;
+  height: 131px;
+  width: 273px;
+}
