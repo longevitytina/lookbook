@@ -5,6 +5,8 @@ import "./App/App.css";
 
 import SLIDES from "./App/slides";
 
+// TODO with more time, map over SLIDES and dynamically render component. Bug was occuring with bootstrap when intially implementing
+
 function CarouselSlides() {
   return (
     <Carousel
